@@ -1,0 +1,138 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url("../images/pexels-gdtography-911738.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+h1, h2, h3 {
+	font-family: 'Della Respira', serif;
+}
+header {
+	z-index: 100000;
+}
+.menu {
+	height: 95vh;
+}
+ion-icon {
+	font-size: 1.5rem
+}
+.hinh {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 75%;
+	transition: 3s;
+}
+.about-text {
+	font-size: 1.6rem;
+	font-weight: 300;
+	z-index: 10;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	.hinh {
+		width: 60%;
+	}
+	.about-text {
+		font-size: 1.8rem;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.hinh {
+		width: 50%;
+	}
+	.about-text {
+		font-size: 2rem;
+	}
+}
+.skillbar {
+	height: 30px;
+}
+.w-90 {
+	width: 90%;
+}
+.w-60 {
+	width: 60%;
+}
+.w-65 {
+	width: 65%;
+}
+.form {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+	border-color: #0275d8;
+	border-bottom-width: 2px;
+}
+img {
+	opacity: .8;
+	filter: grayscale(1);
+	transition: .3s;
+}
+img:hover {
+	opacity: 1;
+	filter: grayscale(0);
+}
+.vh-80 {
+	height: 80vh;
+}
+.navBar {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	-webkit-backdrop-filter: blur(10px);
+  	backdrop-filter: blur(10px);
+	z-index: 10;
+	margin-top: -4px;
+}
+@media only screen and (max-width: 768px) {
+	.nav {
+		flex-direction: row;
+		height: auto;
+		width: 100vw;
+		padding: 0 20px 0 10px;
+		align-items: center;
+		margin-left: -2px;
+	}
+}
+.contact-text {
+	font-size: 1.5rem;
+}
+.contact-text p:hover {
+	color: #0275d8;
+	transition: .3s;
+	cursor: pointer;
+}
+#home {
+	-webkit-backdrop-filter: blur(5px);
+  	backdrop-filter: blur(5px);
+}
+#works {
+	-webkit-backdrop-filter: blur(5px);
+  	backdrop-filter: blur(5px);
+}
+#about {
+	-webkit-backdrop-filter: blur(5px);
+  	backdrop-filter: blur(5px);
+}
+#skills {
+	-webkit-backdrop-filter: blur(5px);
+  	backdrop-filter: blur(5px);
+}
+#contact {
+	-webkit-backdrop-filter: blur(5px);
+  	backdrop-filter: blur(5px);
+}
+.footer {
+}
+a {
+	color: black;
+}

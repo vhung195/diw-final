@@ -1,0 +1,19 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.nenxam {
+	background: grey;
+}
+.banner {
+	height: 85vh;
+}
+.gach {
+	height: 2px;
+	width: 10vw;
+}
+.icon{
+	color: grey;
+}
